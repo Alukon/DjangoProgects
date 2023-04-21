@@ -7,4 +7,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/', views.about),
     path('', views.home),
+    path('reverse/', views.reverse, name='reverse')
 ]
